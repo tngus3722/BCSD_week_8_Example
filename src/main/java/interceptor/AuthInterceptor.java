@@ -27,7 +27,7 @@ public class AuthInterceptor extends HandlerInterceptorAdapter {
                  return true;
              }
              else{
-                 return false;
+                 throw new Exception("non valid");
              }
         }
     }
